@@ -1,44 +1,53 @@
-# django_cms
-How to Build a CMS With Django &amp; Bulma CSS
+原始项目链接：[django_cms](https://github.com/essykings/django_cms)，原文链接: [How to Build a CMS With Django & Bulma CSS](https://python.plainenglish.io/how-to-build-a-cms-with-django-bulma-css-b76de3afa23f)
+---
+# Django简易博客系统
 
+## 环境
+Django 4.0
+Python 3.7
 
-## Installation
-
-1. Clone the repository: 
-
-```sh
-git clone https://github.com/essykings/django_cms
+## 运行步骤
+1. 克隆项目到本地
 ```
-
-2. Create a virtual environment and activate it:
-
-```sh
-python -m venv env
-source env/bin/activate # Linux/macOS
-env\Scripts\activate # Windows
+git clone https://github.com/essykings/django_cms.git
 ```
-Install django
-
-```sh
+2. 进入项目目录
+```
+cd django_cms
+```
+3. 安装依赖
+```
 pip install django
 ```
-
-3. Run Migrations
-
-```sh
+4. 迁移数据库
+```
 python manage.py makemigrations
+python manage.py cms
 python manage.py migrate
 ```
-3. Create Superuser
-
-
-```sh
+5. 创建超级用户
+```
 python manage.py createsuperuser
 ```
-3. Run the developmemt Server
-
-
-```sh
+6. 运行项目
+```
 python manage.py runserver
 ```
+
+> 注意：需要登录超级用户后才能正常运行，程序并没有对匿名用户作处理。
+
+
+## 项目特点
+原项目代码存在一些问题，我纠正了bug，对用户界面进行优化，并且添加了直接增删改查的功能。项目涵盖了Django开发中涉及的一些基础知识点，适合新手学习。
+
+### 运行截图
+![](imgs/1.png)
+![](imgs/2.png)
+![](imgs/3.png)
+![](imgs/4.png)
+![](imgs/5.png)
+
+
+
+
 
