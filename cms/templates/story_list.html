@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>
+   <strong>Posts</strong>
+</h1>
+<div class="block">
+   {% for post in posts %}
+   <div class="box">
+        {{post.title}}
+      <div class="buttons">
+         <button class="button is-primary" onclick="location.href='{% url 'story_detail' post.pk %} '">Details</button>
+         <button class="button is-link" onclick="location.href='{% url 'story' post.pk %} '">Edit</button>
+         <button class="button is-danger" onclick="location.href='{% url 'delete_story' post.pk %} '">Delete</button>
+      </div>
+      <span class="is-small has-text-grey-light">
+      </span>
+   </div>
+   {% endfor %}
+</div>
+
+</div>
+{% endblock  %}
