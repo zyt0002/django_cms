@@ -5,7 +5,7 @@
 ## 项目描述
 实现了一个具有基本的增删改查功能的CMS，前端使用Bulma CSS，后端使用Django框架。项目涵盖了Django开发中涉及的一些基础知识点，适合新手学习。
 ### 修改内容
-原项目代码存在一些问题，我纠正了bug，在前端直接添加了直接增删改查的功能，不用转到后台管理操作。
+原项目代码存在一些问题，我纠正了bug，并在前端直接添加了直接增删改查的功能，不用转到后台管理操作。
 
 ## 环境
 - Django 4.0
@@ -37,6 +37,10 @@ python manage.py createsuperuser
 6. 运行项目
 ```
 python manage.py runserver
+```
+7. 访问项目
+```
+http://localhost:8000/stories
 ```
 
 > 注意：需要登录超级用户后才能正常运行项目，程序并没有对匿名用户作处理。登录地址: http://localhost:8000/admin
