@@ -2,6 +2,11 @@
 ---
 # 基于Django的简易内容管理系统(CMS)
 
+## 项目描述
+实现了一个具有基本的增删改查功能的CMS，前端使用Bulma CSS框架，后端使用Django框架。
+### 修改内容
+原项目代码存在一些问题，我纠正了bug，对用户界面进行优化，并且添加了直接增删改查的功能。项目涵盖了Django开发中涉及的一些基础知识点，适合新手学习。
+
 ## 环境
 Django 4.0
 Python 3.7
@@ -34,11 +39,10 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-> 注意：需要登录超级用户后才能正常运行，程序并没有对匿名用户作处理。
+> 注意：需要登录超级用户后才能正常运行项目，程序并没有对匿名用户作处理。登录地址: http://localhost:8000/admin
 
 
-## 项目特点
-原项目代码存在一些问题，我纠正了bug，对用户界面进行优化，并且添加了直接增删改查的功能。项目涵盖了Django开发中涉及的一些基础知识点，适合新手学习。
+
 
 ### 运行截图
 ![](imgs/1.png)
@@ -46,7 +50,7 @@ python manage.py runserver
 ![](imgs/3.png)
 ![](imgs/4.png)
 ![](imgs/5.png)
-
+![](imgs/6.png)
 
 
 
