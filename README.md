@@ -1,6 +1,6 @@
 原始项目链接：[django_cms](https://github.com/essykings/django_cms)，原文链接: [How to Build a CMS With Django & Bulma CSS](https://python.plainenglish.io/how-to-build-a-cms-with-django-bulma-css-b76de3afa23f)
 ---
-# Django简易博客系统
+# 基于Django的简易内容管理系统(CMS)
 
 ## 环境
 Django 4.0
