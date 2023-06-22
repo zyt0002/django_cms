@@ -15,6 +15,7 @@
 1. 克隆项目到本地
 ```
 git clone https://github.com/zyt0002/django_cms.git
+```
 2. 进入项目目录
 ```
 cd django_cms
