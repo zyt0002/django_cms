@@ -3,19 +3,18 @@
 # 基于Django框架的简易内容管理系统(CMS)
 
 ## 项目描述
-实现了一个具有基本的增删改查功能的CMS，前端使用Bulma CSS框架，后端使用Django框架。
+实现了一个具有基本的增删改查功能的CMS，前端使用Bulma CSS，后端使用Django框架。
 ### 修改内容
 原项目代码存在一些问题，我纠正了bug，对用户界面进行优化，并且添加了直接增删改查的功能。项目涵盖了Django开发中涉及的一些基础知识点，适合新手学习。
 
 ## 环境
-Django 4.0
-Python 3.7
+- Django 4.0
+- Python 3.7
 
 ## 运行步骤
 1. 克隆项目到本地
 ```
-git clone https://github.com/essykings/django_cms.git
-```
+git clone https://github.com/zyt0002/django_cms.git
 2. 进入项目目录
 ```
 cd django_cms
