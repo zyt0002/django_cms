@@ -1,6 +1,6 @@
 原始项目链接：[django_cms](https://github.com/essykings/django_cms)，原文链接: [How to Build a CMS With Django & Bulma CSS](https://python.plainenglish.io/how-to-build-a-cms-with-django-bulma-css-b76de3afa23f)
 ---
-# 基于Django的简易内容管理系统(CMS)
+# 基于Django框架的简易内容管理系统(CMS)
 
 ## 项目描述
 实现了一个具有基本的增删改查功能的CMS，前端使用Bulma CSS框架，后端使用Django框架。
